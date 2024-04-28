@@ -7,5 +7,5 @@ Usando os conhecimentos de HTML, CSS e Javascript, fui capaz de desenvolver esse
 <br>
 
 <p align="center">
-  <img alt="projeto E-commerce" src=".github/image.png" width="100%">
+  <img alt="projeto Quiz App JS" src=".github/image.png" width="100%">
 </p> 
