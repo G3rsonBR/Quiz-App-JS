@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  background-color: rgb(92, 177, 177);
+  color: #0f0f0f;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.btn:hover { background-color: rgb(71, 163, 163); }
+
+#selectQuestion {
+  text-align: center;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  width: 90%;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* Questions CSS */
+
+#questions {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#options {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px
+}
+
+label {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+
+.option {
+  flex-direction: row-reverse;
+}
+
+
+@media screen and (max-width: 600px) {
+  .selectQuestion {
+    width: 90%;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+}
